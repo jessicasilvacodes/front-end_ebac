@@ -1,4 +1,5 @@
-# git_EBAC
+## Portfólio e exercícios do curso "Profissão: Engenheiro Front-end" da EBAC.
 
-## Testando o versionamento do Git diretamente no VSCode.
-### Exercício do módulo II.
+...
+
+Desenvolvido por [Jessica Silva](https://www.linkedin.com/in/ssilvajessica/).
