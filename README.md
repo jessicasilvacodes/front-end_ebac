@@ -1,6 +1,6 @@
 # git_EBAC
 
-## Testando o versionamento do Git diretamente no VSCode.
+### Testando o versionamento do Git diretamente no VSCode.
 
 A entrega desse exercício consiste em:
 - [x] Criar um repositório no Github;
