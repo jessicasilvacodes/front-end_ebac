@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    padding: 16px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: #7D7C7C;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: inline-block;
+    padding: 8px;
+}
+
+header li a:hover {
+    color: black;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+    
+}
+
+.articles { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.articles article a {
+    color: #6E6D6D;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.articles article a:hover {
+    color: black;
+}
+
+.articles article p {
+    font-size: 15px;
+
+}
+
+section {
+    padding: 16px;
+}
+
+section h2, articles article {
+    margin-bottom: 16px;
+}
+
+
+h1 {
+    padding: 8px;
+    margin: 20px;
+    color: #363062;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.dataehora {
+    font-size: 12px;
+    color: dimgray;
+}
+
+#sports h2{
+    color: #2C2891;
+}
+
+#economy h2 {
+    color: #1C7947;
+}
+
+#entertainment h2{
+    color: #7E1717;
+}
+
+#technology h2 {
+    color: #FF5B22;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    color: #6E6D6D;
+    padding: 10px;
+}
