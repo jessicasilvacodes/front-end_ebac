@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário - Exercício EBAC</title>
+</head>
+
+<body>
+
+  <h2>Formulário - Exercício EBAC</h2>
+
+  <form id="meuFormulario">
+    <label for="campoA">Campo A:</label>
+    <input type="number" id="campoA" name="campoA" required>
+    <br>
+    <br>
+    <label for="campoB">Campo B:</label>
+    <input type="number" id="campoB" name="campoB" required>
+    <br>
+    <br>
+    <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+    <br>
+
+  <div id="mensagem"></div>
+
+  <script>
+    function validarFormulario() {
+
+      let campoA = document.getElementById('campoA').value;
+      let campoB = document.getElementById('campoB').value;
+
+
+      campoA = parseInt(campoA);
+      campoB = parseInt(campoB);
+
+
+      if (campoB > campoA) {
+
+        document.getElementById('mensagem').innerHTML = "Formulário válido!";
+        document.getElementById('mensagem').style.color = "green";
+      } else {
+
+        document.getElementById('mensagem').innerHTML = "Formulário inválido! O número B deve ser maior do que o número A.";
+        document.getElementById('mensagem').style.color = "red";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

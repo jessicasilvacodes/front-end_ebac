@@ -29,12 +29,12 @@
   <script>
     function validarFormulario() {
 
-      var campoA = document.getElementById('campoA').value;
-      var campoB = document.getElementById('campoB').value;
+      let campoA = document.getElementById('campoA').value;
+      let campoB = document.getElementById('campoB').value;
 
 
-      campoA = parseFloat(campoA);
-      campoB = parseFloat(campoB);
+      campoA = parseInt(campoA);
+      campoB = parseInt(campoB);
 
 
       if (campoB > campoA) {
